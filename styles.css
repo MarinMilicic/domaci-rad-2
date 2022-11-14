@@ -1,0 +1,43 @@
+body {
+    background-color: #fcd530;
+    padding: 100px;
+}
+
+.brainlab-login {
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.brainlab-login__header {
+    text-align: center;
+    line-height: 70px;
+    background-color: #ce1920;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.brainlab-login__card {
+    display: flex;
+    height: 430px;
+}
+
+.brainlab-login__card__image {
+    width: 50%;
+    border-bottom-left-radius: 5px;
+}
+
+.brainlab-login__card__authentification {
+    margin: auto auto;
+    padding: 0 10%;
+}
+
+.brainlab-login__card__authentification p {
+    font-weight: bold;
+}
